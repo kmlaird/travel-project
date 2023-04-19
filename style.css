@@ -211,4 +211,7 @@ footer a:hover {
   footer {
     padding: 20px;
   }
+  .video {
+    padding: 15px 10px;
+  }
 }
