@@ -116,7 +116,9 @@ main div {
 .overview {
   align-items: center;
 }
-
+.videos {
+  text-align: center;
+}
 .card {
   margin-top: 30px;
   padding: 30px 20px;
@@ -126,6 +128,17 @@ main div {
 .grid-three-col {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
+}
+.video {
+  background-color: rgba(167, 165, 165, 0.2);
+  margin-top: 30px;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+iframe {
+  max-width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: 10px;
 }
 main h4 {
   font-weight: 900;
